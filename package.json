@@ -62,4 +62,12 @@
     "vite": "5.0.0",
     "vite-tsconfig-paths": "3.6.0"
   }
+  {
+  "homepage": "https://danicv2000.github.io/amazonscraper_pro",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+
 }
