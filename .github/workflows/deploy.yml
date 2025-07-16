@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build -- --base=/contratacion-front/
+        run: npm run build -- --base=/amazonscraper_pro/
 
       - name: List dist directory (for debugging)
         run: ls -la dist/
